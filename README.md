@@ -24,6 +24,8 @@ kubectl apply -k "github.com/kubernetes-sigs/aws-ebs-csi-driver/deploy/kubernete
 # To verify ebs-csi pods, run:
 kubectl get pods -n kube-system
 
+# Apply the manifest files above to test. The following are created, a storageclass, PersistentVolumeClaim and pod. A persistent volume is dynamically created by the ebs-csi-controller.
+
 
 # note: container image registry address depends on the aws region, check: https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html
 

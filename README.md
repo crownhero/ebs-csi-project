@@ -1,5 +1,5 @@
 # ebs-csi-project
-Dynamically provision of AWS EBS volumes to be used pods in a kubernetes cluster
+Dynamically provision of AWS EBS volumes to be used in statefulsets in a kubernetes cluster
 
 aws iam create-policy \
 --policy-name AmazonEKS_EBS_CSI_Driver_Policy \
